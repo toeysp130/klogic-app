@@ -51,7 +51,7 @@ function Login() {
                   {passwordError}
                 </small>
               </div>
-              <button type="submit" className="btn btn-primary ">
+              <button type="submit" className="btn btn-primary " onClick={loginSubmit}>
                 Login
               </button>
             </form>
