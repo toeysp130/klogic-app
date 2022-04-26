@@ -1,0 +1,26 @@
+
+.login {
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-kmutnb-name{
+    text-align: center;
+    padding: 4rem;
+}
+.form-login{
+    padding: 2rem;
+    margin-bottom: 10rem;
+    background-color: rgba(100,100,100,0.70);
+    border-radius: 2ch;
+}
+.footer-text{
+    text-align: right;
+    color: aliceblue;
+}
+.form-group label{
+    color: aliceblue;
+}
+.btn-control{
+    margin-top: 3rem;
+}
