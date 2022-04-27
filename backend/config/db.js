@@ -7,7 +7,6 @@ const connectDB = async () => {
   try {
     // ใส่ await เพื่อให้รอจนเสร็จก่อน
     await mongoose.connect(db, {
-      // คืออะไรไม่รู้แต่รู้แค่ว่ามันบอกให้ใส่ 55555
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
